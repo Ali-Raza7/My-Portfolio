@@ -1,0 +1,237 @@
+body {
+
+    background-color: rgb(54, 55, 56);
+}
+.back{
+      background-color: #7191c5;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+#col{
+text-decoration: none;
+    color: #f7eff1;
+}
+
+#col1{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+#col2{
+    text-decoration: none;
+    color: #ece6e8;
+}
+#col3{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.developer {
+
+    color: rgb(255, 251, 253);
+}
+
+.im{
+    color: coral;
+
+}
+.show{ 
+    color: coral;
+}
+
+.ali{
+    color: deeppink;
+
+}
+
+
+
+
+
+.link{
+    border: 1px solid rgb(187, 159, 159);
+}
+.port{
+   
+    padding-right: 500px;
+}
+.colour{
+    background-color:  rgb(102, 19, 81)
+}
+.port{
+
+    font-family: sans-serif;
+    margin: 10px;
+    color: #fff
+}
+.port::first-letter{
+    font-size: 50px;
+    color: #ff0055;
+
+}
+.port::first-line{
+
+    color: rgb (255, 208, 0);
+    letter-spacing: 1px;
+    font-weight: bold
+}
+
+.icons{
+
+    display: 60px;
+column-gap: 250px;
+
+}
+.icon{
+
+    width: 20px;
+    height:20px;
+    display: inline-flex;
+    align-items :  center;
+
+justify-content: center;
+
+font-size: 15px;
+color: #fff;
+border-radius: 50%;
+outline :  2px solid #fff;
+transition-property:  outline-offset, outline-color, baclground-color
+transition-duration   
+
+}
+
+.icon:hover{
+
+    outline-offset: 2px;
+
+}
+.icon:hover i { 
+
+    animation: snake 25s;
+
+}
+
+.icon--instagram:hover{ 
+
+    background-image: radial-gradient(circle at 30% 107%,
+    #fd5949 45%, #d6249f 60%,
+    #285aeb 90%  );
+       
+        outline-color:#a02d76
+       
+}    
+.icon--twiter:hover { 
+ 
+    background-color: #16b8b8 ;
+ 
+    outline-color:#14588f
+}
+    
+    
+.icon--linkedi:hover{ 
+    outline-color: #1ca4ad;
+    background-color: #2b49d3;
+}
+
+    
+.icon--linkedin:hover{ 
+    outline-color: #e0dcdc;
+    background-color: #b41f1f;
+}
+
+.gd{ margin: 5px;
+    position : absolute ;
+    left: 70%;
+    top: 174px;
+    font-size: 17px;
+    color: #fff;
+     
+}
+.ima{ 
+    height: 299px;
+    width: 306px;
+    position: absolute;
+    top: 95px;
+    left: 383px
+    
+}
+.box{ 
+
+    height: 225px;
+    width: 240px;
+    border: 2px solid  black;
+    border-radius: 150px;
+    margin-left: 50%;
+    margin-right: 100%;
+   
+    background-color: rgb(0, 0, 0);
+    box-shadow: 3px 5px 15px 3px rgb(0, 0, 0);
+    
+}
+.box{ 
+     
+    position: absolute;
+    top: 167px;
+    left: -100px;
+}
+.box2{
+    height: 31px;
+    width: 74px;
+    border: 2px solid black;
+    border-radius: 167px;
+    margin-top: auto;
+    margin-left: 15%;
+    margin-right: 101%;
+    background-color: rgb(0 0 0 / 64%)
+
+}
+
+.fix{
+    font-size:30px; 
+    color:  #7191c5 ; 
+box-sizing: 2px solid white;
+  
+}
+
+.fa-meta{ 
+ 
+    color: #0d8e92;
+}
+.fix1{
+     font-size:30px;
+    color:rgb(11, 115, 141)
+
+}
+.margin{
+     
+    margin-left: 30px;
+}
+.fa-linkedin{
+border: 2px;
+    color: #16b8b8;
+}
+
+.fo{
+
+    color: #ece6e8;
+}
+.fa-meta{ 
+
+    color: blue;
+}
+.bb{
+    
+    position: absolute;
+    left: 37%;
+    bottom: 11%;
+    font-size: large;
+}
+
+.fa-slack{
+
+    color: #fd5949;
+}
+.fa-google{
+
+    color: red;
+}
